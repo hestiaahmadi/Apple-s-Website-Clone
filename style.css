@@ -169,3 +169,32 @@ a:active {
   border-radius: 40px;
   border-color: #2159d2ff;
 }
+
+@media (max-width: 768px) {
+  .nav {
+    gap: 10px;
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  .hero,
+  .iphoneair,
+  .iphone17 {
+    height: 400px;
+    font-size: 0.9px;
+    padding: 10px;
+  }
+
+  .learnmore,
+  .buy,
+  .learnmoreair,
+  .buyair,
+  .learnmore17,
+  .buy17 {
+    font-size: 0.9px;
+    padding: 10px 15px;
+    width: 80%;
+    max-width: 250px;
+  }
+}
+
