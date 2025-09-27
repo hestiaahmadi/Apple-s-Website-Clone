@@ -26,7 +26,7 @@ a:active {
 }
 
 .hamburger {
-  display: none;
+  display: center;
   font-size: 24px;
   cursor: pointer;
 }
@@ -184,6 +184,7 @@ a:active {
     display: block;
   }
 }
+
 
 
 
