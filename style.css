@@ -1,5 +1,4 @@
 /*Base Style*/
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
@@ -7,16 +6,10 @@ body {
   padding: 0px;
 }
 
-@media (max-width: 600px) {
-  .nav {
-    font-size: 20%;
-    gap: 5px;
-  }
-}
-
-.nav {
+.nav-links {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   list-style: none;
   font-size: 80%;
@@ -32,6 +25,12 @@ a:active {
   text-decoration: none;
 }
 
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 .p {
   display: flex;
   justify-content: center;
@@ -42,14 +41,6 @@ a:active {
 }
 
 /*hero Section*/
-
-@media (max-width: 600px;) {
-  .hero {
-    background-image: url("Applee-iPhone-17-Pro-camera-close-up-250909-lp.jpg.og.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
 
 .hero {
   font-size: 1.5rem;
@@ -178,6 +169,23 @@ a:active {
   border-radius: 40px;
   border-color: #2159d2ff;
 }
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: colmumn;
+    gap: 15px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
 
 
 
