@@ -174,7 +174,6 @@ a:active {
 @media (max-width: 768px) {
   .nav-links {
     display: none;
-    flex-direction: colmumn;
     gap: 15px;
     position: absolute;
     top: 60px;
@@ -301,6 +300,7 @@ a:active {
     border-color: #2159d2ff;
   }
 }
+
 
 
 
