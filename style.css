@@ -1,4 +1,5 @@
 /*Base Style*/
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
@@ -26,7 +27,7 @@ a:active {
 }
 
 .hamburger {
-  display: center;
+  display: none;
   font-size: 24px;
   cursor: pointer;
 }
@@ -172,7 +173,8 @@ a:active {
 
 @media (max-width: 768px) {
   .nav-links {
-    display: center;
+    display: none;
+    flex-direction: colmumn;
     gap: 15px;
     position: absolute;
     top: 60px;
@@ -181,7 +183,122 @@ a:active {
     border-radius: 8px;
   }
   .hamburger {
+    background: #dcd9d9ff;
     display: block;
+  }
+  .p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  .hero {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    background-image: url("highlights_design_endframe__flnga0hibmeu_large.jpg");
+    width: 360px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero-text {
+    justify-content: center;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  .learnmore {
+    font-size: 13px;
+    background: #2a4ae8ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: 10px;
+    border-radius: 40px;
+  }
+  .buy {
+    background: #000000;
+    color: #2159d2ff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: 10px;
+    border-radius: 40px;
+    border-color: #2159d2ff;
+  }
+  .iphoneair {
+    margin-top: 140px;
+    font-size: 15px;
+    color: #000000ff;
+    display: flex;
+    justify-content: center;
+    background: url("Apple (Brasil).jpg");
+    width: 330px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .air {
+    margin-left: 50px;
+    margin-top: -160px;
+  }
+  .textair {
+    margin-top: -23px;
+  }
+  .textaiir {
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+  .learnmoreair {
+    font-size: 13px;
+    background: #2a4ae8ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: -10px;
+    border-radius: 40px;
+  }
+  .buyair {
+    background: #ffffffff;
+    color: #2159d2ff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: 10px;
+    border-radius: 40px;
+    border-color: #2159d2ff;
+  }
+  .iphone7 {
+    font-size: 15px;
+    margin-top: 40px;
+    background-image: url("iphone-17-models.jpg");
+    width: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text17 {
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 70px;
+  }
+  .learnmore17 {
+    margin-left: 40px;
+    font-size: 13px;
+    background: #2a4ae8ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    border-radius: 50px;
+  }
+  .buy17 {
+    background: #ffffffff;
+    color: #2159d2ff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    border-radius: 40px;
+    border-color: #2159d2ff;
   }
 }
 
