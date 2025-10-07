@@ -1,0 +1,456 @@
+/*Base Style*/
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  font-size: 80%;
+  background: #fbf5f5ff;
+  padding: 10px 10px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+}
+
+.p a {
+  color: blue;
+}
+
+/*hero Section*/
+
+.hero {
+  font-size: 1.5rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  background-image: url("images/Apple-iPhone-17-Pro-camera-close-up-250909-lp.jpg.og.jpg");
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.hero-text {
+  margin-top: -30px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.learnmore {
+  font-size: 1rem;
+  background: #2a4ae8ff;
+  color: #ffffff;
+  padding: 13px 27px;
+  text-align: center; /* متن و دکمه وسط چین */
+  margin-left: 60px;
+  border-radius: 40px;
+}
+
+.buy {
+  background: #000000;
+  color: #2159d2ff;
+  padding: 13px 23px;
+  text-align: center; /* متن و دکمه وسط چین */
+  margin-left: 10px;
+  border-radius: 40px;
+  border-color: #2159d2ff;
+}
+
+.iphoneair {
+  font-size: 1.5rem;
+  color: #000000ff;
+  display: flex;
+  justify-content: center;
+  background: url("images/hero__pkj0eg4w6ki2_xlarge.jpg");
+  width: 1250px;
+  margin-left: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.air {
+  margin-top: -20px;
+  margin-right: 100px;
+}
+
+.textair {
+  margin-top: -30px;
+  margin-right: 90px;
+}
+
+.textaiir {
+  font-size: 1.5rem;
+  margin-top: -30px;
+  margin-right: 90px;
+  margin-left: -20px;
+}
+
+.learnmoreair {
+  font-size: 1rem;
+  background: #415decff;
+  color: #ffffff;
+  padding: 15px 20px;
+  text-align: center; /* متن و دکمه وسط چین */
+  margin-left: 20px;
+  border-radius: 40px;
+  border-color: #ffffffff;
+}
+
+.buyair {
+  background: #ffffffff;
+  color: #003aafff;
+  padding: 15px 25px;
+  text-align: center; /* متن و دکمه وسط چین */
+  margin-left: 0px;
+  border-radius: 40px;
+  border-color: #2159d2ff;
+}
+
+.iphone7 {
+  font-size: 1.5rem;
+  color: #000000ff;
+  display: flex;
+  justify-content: center;
+  background: url("images/Apple-iPhone-17-color-lineup-250909_big.jpg.large.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iphone17 {
+  margin-top: -50px;
+}
+
+.text17 {
+  margin: -30px;
+  margin-left: 20px;
+}
+
+.learnmore17 {
+  font-size: 1rem;
+  background: #415decff;
+  color: #ffffff;
+  padding: 15px 20px;
+  text-align: center; /* متن و دکمه وسط چین */
+  margin-top: 45px;
+  border-radius: 40px;
+  border-color: #ffffffff;
+}
+
+.buy17 {
+  background: #ffffffff;
+  color: #0f4db9ff;
+  padding: 15px 25px;
+  text-align: center; /* متن و دکمه وسط چین */
+  margin-right: 50px;
+  border-radius: 40px;
+  border-color: #2159d2ff;
+}
+
+/*media*/
+
+@media (max-width: 1068px) {
+  .nav-links {
+    display: none;
+    flex-direction: colmumn;
+    gap: 15px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+  }
+  .hero {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    background-image: url("images/highlights_design_endframe__flnga0hibmeu_large.jpg");
+    width: 400px;
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero-text {
+    margin-top: -10px;
+    justify-content: center;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  .learnmore {
+    font-size: 13px;
+    background: #2a4ae8ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: 10px;
+    border-radius: 40px;
+  }
+  .buy {
+    background: #000000;
+    color: #2159d2ff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: 10px;
+    border-radius: 40px;
+    border-color: #2159d2ff;
+  }
+  .iphoneair {
+    margin-top: 140px;
+    font-size: 15px;
+    color: #000000ff;
+    display: flex;
+    justify-content: center;
+    background: url("images/Apple (Brasil).jpg");
+    width: 300px;
+    height: 180px;
+    margin-left: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .air {
+    justify-content: center;
+    margin-top: -150px;
+    margin-right: -90px;
+  }
+  .textair {
+    margin-top: -23px;
+  }
+  .textaiir {
+    font-size: 13px;
+    margin-top: -20px;
+    margin-right: 0px;
+  }
+  .learnmoreair {
+    font-size: 13px;
+    background: #2a4ae8ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: -10px;
+    border-radius: 40px;
+  }
+  .buyair {
+    background: #ffffffff;
+    color: #2159d2ff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: 10px;
+    border-radius: 40px;
+    border-color: #2159d2ff;
+  }
+  .iphone7 {
+    font-size: 15px;
+    margin-top: 40px;
+    background-image: url("images/iphone-17-models.jpg");
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .iphone17 {
+    margin-top: -20px;
+    margin-right: 10px;
+  }
+  .text17 {
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 100px;
+  }
+  .learnmore17 {
+    margin-left: 70px;
+    font-size: 13px;
+    background: #2a4ae8ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    border-radius: 50px;
+  }
+  .buy17 {
+    background: #ffffffff;
+    color: #2159d2ff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    border-radius: 40px;
+    border-color: #2159d2ff;
+  }
+}
+
+@media (max-width: 1068px) {
+  .nav-links {
+    display: none;
+    flex-direction: colmumn;
+    gap: 15px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .p {
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+  }
+  .hero {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    background-image: url("images/Apple-iPhone-17-Pro-camera-close-up-250909-lp.jpg.og.jpg");
+    width: 740px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero-text {
+    margin-top: -15px;
+    justify-content: center;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  .learnmore {
+    font-size: 14px;
+    background: #2a4ae8ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: 10px;
+    border-radius: 40px;
+  }
+  .buy {
+    font-size: 14px;
+    background: #000000;
+    color: #2159d2ff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: 10px;
+    border-radius: 40px;
+    border-color: #2159d2ff;
+  }
+  .iphoneair {
+    margin-top: 150px;
+    font-size: 16px;
+    color: #000000ff;
+    display: flex;
+    justify-content: center;
+    background: url("images/hero__pkj0eg4w6ki2_xlarge.jpg");
+    width: 460px;
+    height: 180px;
+    margin-left: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .air {
+    justify-content: center;
+    margin-top: -150px;
+    margin-right: -80px;
+  }
+  .textair {
+    margin-top: -20px;
+  }
+  .textaiir {
+    font-size: 13px;
+    margin-top: -20px;
+  }
+  .learnmoreair {
+    font-size: 14px;
+    background: #2a4ae8ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: -10px;
+    border-radius: 40px;
+  }
+  .buyair {
+    font-size: 14px;
+    background: #ffffffff;
+    color: #2159d2ff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    margin-left: 10px;
+    border-radius: 40px;
+    border-color: #2159d2ff;
+  }
+  .iphone7 {
+    font-size: 15px;
+    margin-top: 40px;
+    background-image: url("images/iphone-17-models.jpg");
+    width: 400px;
+    margin-left: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .iphone17 {
+    margin-top: -20px;
+    margin-right: 10px;
+  }
+  .text17 {
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 100px;
+  }
+  .learnmore17 {
+    margin-left: 70px;
+    font-size: 14px;
+    background: #2a4ae8ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    border-radius: 50px;
+  }
+  .buy17 {
+    font-size: 14px;
+    background: #ffffffff;
+    color: #2159d2ff;
+    padding: 10px 15px;
+    text-align: center; /* متن و دکمه وسط چین */
+    border-radius: 40px;
+    border-color: #2159d2ff;
+  }
+}
